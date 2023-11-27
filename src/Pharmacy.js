@@ -281,9 +281,8 @@ const MyComponent = () => {
 
 
 
-
   const handleSubmit = () => {
-    if (!genericName || !medicineName || !companyName || !typeName || !mrp) {
+    if (!genericName || !medicineName || !companyName || !typeName) {
       // Display individual error messages for each empty field
       if (!genericName) {
         console.log("Generic Name is required.");
